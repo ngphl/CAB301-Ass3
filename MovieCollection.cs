@@ -250,7 +250,6 @@ public class MovieCollection : IMovieCollection
 		ResetIndex(ref i);
 		IMovie[] list = new IMovie[Number];
 		InOrderTraverse(root, list);
-		Console.Writeline("sadsa");
 		return list;
 	}
 
